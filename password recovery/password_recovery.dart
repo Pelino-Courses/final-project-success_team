@@ -12,7 +12,7 @@ class PasswordRecovery extends StatelessWidget {
         child: Column(
           children: [
             const Padding(
-              padding: EdgeInsets.fromLTRB(30, 70, 50, 20),
+              padding: EdgeInsets.fromLTRB(40, 80, 50, 20),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
