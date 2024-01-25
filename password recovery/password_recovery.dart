@@ -11,7 +11,7 @@ class PasswordRecovery extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            const Padding(
+            Padding(
               padding: EdgeInsets.fromLTRB(30, 70, 50, 20),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -52,7 +52,7 @@ class PasswordRecovery extends StatelessWidget {
                         fontSize: 16,
                         color: Colors.grey[400]),
                   ),
-                  const SizedBox(
+                  SizedBox(
                     height: 30,
                   ),
                   const TextField(
