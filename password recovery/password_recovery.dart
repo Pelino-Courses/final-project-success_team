@@ -51,7 +51,7 @@ class PasswordRecovery extends StatelessWidget {
                         color: Colors.grey[400]),
                   ),
                   Text(
-                    'registered  you will receive a code',
+                    'you will receive a code',
                     style: TextStyle(
                         fontWeight: FontWeight.w600,
                         fontSize: 16,
@@ -60,7 +60,7 @@ class PasswordRecovery extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
-                  const TextField(
+                  TextField(
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),
                       hintText: 'Enter yuor email/ phone number',
