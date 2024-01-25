@@ -51,7 +51,7 @@ class PasswordRecovery extends StatelessWidget {
                         color: Colors.grey[400]),
                   ),
                   Text(
-                    'you will receive a code',
+                    ' You will receive a code in sms',
                     style: TextStyle(
                         fontWeight: FontWeight.w600,
                         fontSize: 16,
