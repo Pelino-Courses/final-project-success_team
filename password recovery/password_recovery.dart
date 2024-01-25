@@ -11,8 +11,13 @@ class PasswordRecovery extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
+<<<<<<< HEAD
             Padding(
               padding: EdgeInsets.fromLTRB(30, 70, 50, 20),
+=======
+            const Padding(
+              padding: EdgeInsets.fromLTRB(40, 80, 50, 20),
+>>>>>>> d56fbb38218fbcfc6ea34b10e68245f36d95b99b
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [

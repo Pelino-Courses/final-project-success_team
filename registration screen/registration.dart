@@ -17,13 +17,13 @@ class _MyRegisterPageState extends State<MyRegisterPage> {
           padding: EdgeInsets.all(18.0),
           child: SingleChildScrollView(
             child:
+
                 Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-              const SizedBox(height: 100),
-              const Row(
+                  SizedBox(height: 110),
+                   Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text(
-                    'Tech',
+                  Text('Tech',
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 30,
@@ -36,7 +36,7 @@ class _MyRegisterPageState extends State<MyRegisterPage> {
                           fontWeight: FontWeight.bold)),
                 ],
               ),
-              const SizedBox(height: 40),
+               SizedBox(height: 60),
               Container(
 
                   // color: Colors.white,
